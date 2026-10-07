@@ -116,9 +116,6 @@ Signed in as Jeff, now a Global Administrator, I created a new user in Entra ID.
 - **Test as the user.** Checking permissions from the user's own session, including the actions that should fail, is the reliable way to confirm access is configured correctly.
 - **Global Administrator is the most powerful role in a tenant.** In a real environment it should be assigned rarely, held temporarily, and reviewed.
 
-## Cleanup
-
-Elevated test access should not stay in place after a lab. Best practice is to remove Jeff's Global Administrator assignment and delete the test users once the evidence is captured.
 
 ## Security Note
 
